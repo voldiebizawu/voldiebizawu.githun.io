@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Advent pro', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 3em;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+/* ********************NAVBAR*************** */
+
+nav {
+    overflow: hidden;
+    background-color: #FFFAE1;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+}
+
+header li {
+    float: right;
+    font-size: 1.2em;
+}
+
+header li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 18px 16px;
+}
+
+#logo {
+    font-family: 'Dancing script',cursive;
+    font-weight: bold;
+    float: left;
+}
+
+/* *******************IMAGE PRINCIPALE**************** */
+
+#imageprincipale {
+    padding-top: 60px;
+    background: url(media/image\ principale.jpg) no-repeat fixed 20% 10%;
+    background-size: cover;
+    height: 799px;
+    
+}
+h1 {
+    font-family: 'Dancing script' cursive;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 100px;
+    margin: 110px;
+    text-shadow: 10px 2px 4px black;
+}
+#premierTrait {
+    height: 1px;
+    width: 500px;
+    margin: 3px auto;
+    background-color: #FFFAE1;
+    box-shadow: 10px 200px 40px black;
+}
+header h3 {
+    text-align: center;
+    font-family: 'Dancing script' cursive;
+    font-size: 100px;
+    color: antiquewhite;
+    margin: 100px;
+    text-shadow: 10px 2px 4px black;
+}
+/* *****************PRESENTATION****************** */
+
+#presentation {
+    background-color: antiquewhite;
+    padding: 10px 0px 100px 0;
+}
+#texteIntro {
+    padding: 0px 20%;
+}
+#Prestations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+.imageprestations h4 {
+    font-family: 'Dancing script' cursive;
+    font-size: 20px;
+    margin: 15px;
+    font-weight: 500;
+}
+.imageprestations img {
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px  black;
+}
+.imageprestations img:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+    transition: 0.6s ease-in-out;
+}
+/* ********************TOURISME**************** */
+#tourisme {
+    height: 1400px;
+    background-color:khaki;
+    padding: 1px 50px;
+}
+#tourisme h2 {
+    padding-top: 60px;
+}
+#plage {
+    background: url(media/PLAGE.jpg) no-repeat;
+    
+}
+#nation {
+    background: url(media/PALAIS\ DE\ LA\ NATION.jpg) no-repeat;
+}
+#peuple {
+    background: url(media/PALAIS\ DU\ PEUPLE.jpg) no-repeat;
+}
+#piscine {
+    background: url(media/PISCINE.jpg) no-repeat;
+}
+#tourisme li {
+    margin: 60px 100px 0px 100px;
+    height: 226px;
+    width: 55%;
+    max-width: 550px;
+    float: left;
+    
+}
+#tourisme p {
+    height: 25px;
+    width: 250px;
+    background-color: coral;
+    float: right;
+    margin: 50px 45px 0px 0px;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 20px;
+    box-shadow: 1px 2px 5px 1px black;
+}
+#tourisme #nation, #tourisme #piscine {
+    float: right;
+}
+#nation p, #piscine p {
+    float: left;
+    background-color: chartreuse;
+    margin-left: -240px;
+}
+
+/* *****************FOOTER************************ */
+footer {
+    background-color: saddlebrown;
+    height: 500px;
+    padding: 1px 0px;
+
+}
+footer h2 {
+    color: antiquewhite;
+    font-size: 35px;
+}
+form {
+    text-align: center;
+}
+form input{
+    height: 40px;
+    width: 400px;
+    display: block;
+    margin: 1px auto;
+    border-radius: 10px;
+    border-color: antiquewhite;
+    border: none;
+    font-size: 20px;
+    font-family: 'Advent pro', sans-serif;
+}
+form textarea {
+    height: 100px;
+    width: 400px;
+    margin: 1px auto;
+    display: block;
+    border-radius: 10px;
+    border-color: antiquewhite;
+    border: none;
+    font-size: 20px;
+    font-family: 'Advent pro', sans-serif;
+
+}
+form button {
+    height: 40px;
+    width: 350px;
+    border-radius: 10px;
+    border: none;
+    font-size: 30px;
+    background-color:antiquewhite;
+
+}
+button:hover {
+    background-color: coral;
+    color: antiquewhite;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+#dexiemeTrait {
+    height: 1px;
+    width: 800px;
+    margin: 50px auto;
+    background-color: antiquewhite;
+}
+#copyrightEticons {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0px 10%;
+    
+}
+#copyright {
+    width: 50%;
+    text-align: left;
+    color: antiquewhite;
+}
+#icons {
+    width: 50%;
+    text-align: right;
+}
+#icons a {
+    display: inline-block;
+    padding: 0px 15px;
+    font-size: 5px;
+    color: antiquewhite;
+}
+#icons a:hover {
+    transform: scale(1.5);
+    transition: 0.5s;
+}
